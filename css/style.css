@@ -1102,7 +1102,7 @@ header nav ul > li:last-child:hover .megamenu {
     color: var(--main-color-alt);
     font-size: 14px;
     padding: 7px;
-    width: fit-content;
+    width: 47px;
     height: fit-content;
     border: 2px solid #bebbbb;
     border-radius: 5px;
@@ -1118,7 +1118,12 @@ header nav ul > li:last-child:hover .megamenu {
     position: absolute;
     height: 100%;
     background-color: var(--main-color);
+    background-image: linear-gradient(to right, #2196f3 , #0e6ebb);
     border-color: var(--main-color);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.75s;
+    box-shadow: 3px 0px 5px gray;
 }
 @media (max-width: 991px) {
     .ourSkills .container .image {
