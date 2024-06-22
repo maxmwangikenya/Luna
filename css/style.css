@@ -1015,15 +1015,19 @@ header nav ul > li:last-child:hover .megamenu {
     width: 100%;
 }
 .services .box i {
-    color: #d5d5d5;
+    color: #bdbcbc;
     margin-bottom: 25px;
     transition: 0.3s;
 }
 .services .box h3 {
     font-size: 22px;
     font-weight: 900;
-    color: var(--main-color);
+    color: #bdbcbc;
     margin-bottom: 75px;
+    transition: var(--main-transition);
+}
+.services .box:hover h3 {
+    color: var(--main-color);
 }
 .services .box .info {
     background-color: #ede7e7;
