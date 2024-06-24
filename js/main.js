@@ -51,4 +51,4 @@ function startCountStats(el) {
 
 let currentDate = new Date();
 let currentYear = currentDate.getFullYear();
-document.querySelector(".currentYear").innerText = currentYear;
+document.querySelector(".currentYear").innerHTML = currentYear;
