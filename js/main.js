@@ -48,3 +48,7 @@ function startCountStats(el) {
         }
     },2000 / skillGoal)
 }
+
+let currentDate = new Date();
+let currentYear = currentDate.getFullYear();
+document.querySelector(".currentYear").innerText = currentYear;
