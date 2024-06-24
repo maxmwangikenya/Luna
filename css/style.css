@@ -1106,6 +1106,14 @@ header nav ul > li:last-child:hover .megamenu {
     height: fit-content;
     border: 2px solid #bebbbb;
     border-radius: 5px;
+    position: relative;
+}
+.ourSkills .skill h3 span::after {
+    content: "%";
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 5px;
 }
 .ourSkills .skill .progress {
     width: 100%;
