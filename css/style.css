@@ -1967,8 +1967,8 @@ footer .last-info p span, a {
     font-weight: bold;
 }
 body > footer > div.last-info > p:nth-child(2) > span.currentYear {
-    color: white;
-    font-size: 15px;
-    font-weight: normal;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
 }
 /* End Footer */
