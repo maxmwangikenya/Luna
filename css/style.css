@@ -1544,6 +1544,21 @@ header nav ul > li:last-child:hover .megamenu {
     border: 2px solid #e6e3e3;
     height: 680px;
     overflow-y: scroll;
+    position: relative;
+}
+.topVideos .title::-webkit-scrollbar {
+    width: 8px;
+}
+.topVideos .title::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+.topVideos .title::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+.topVideos .title::-webkit-scrollbar-thumb:hover {
+  background-color: var(--main-color-alt);
 }
 .topVideos .title span {
     display: block;
@@ -1554,7 +1569,9 @@ header nav ul > li:last-child:hover .megamenu {
 .topVideos .title h4 {
     background-color: #f4f4f4;
     padding: 20px;
-    position: relative;
+    border-bottom: 2px solid #e6e3e3;
+    position: sticky;
+    top: 0;
 }
 .topVideos .title h4::after {
     font-family: "Font Awesome 5 Free";
@@ -1565,8 +1582,10 @@ header nav ul > li:last-child:hover .megamenu {
     top: 19px;
     right: 18px;
 }
-.topVideos .title ul li {
+.topVideos .title ul li:not(:first-child) {
     border-top: 2px solid #e6e3e3;
+}
+.topVideos .title ul li {
     padding: 20px;
 }
 .topVideos .title ul li:hover {
